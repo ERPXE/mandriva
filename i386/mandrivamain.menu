@@ -1,0 +1,8 @@
+LABEL MANDRIVAX86NFS
+MENU LABEL ^Mandriva - x32
+KERNEL er/plugins/mandriva/i386/vmlinuz
+INITRD er/plugins/mandriva/i386/all.rdz
+APPEND ramdisk_size=100000 ip=dhcp automatic=method:nfs,network:dhcp,server:10.0.0.1,directory:/tftpboot/er/shares/mandriva/i386/ vga=788
+TEXT HELP
+                 Install Mandriva i386 to local system.
+ENDTEXT

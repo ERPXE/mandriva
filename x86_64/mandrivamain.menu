@@ -1,0 +1,8 @@
+LABEL MANDRIVAX64NFS
+MENU LABEL ^Mandriva - x64
+KERNEL er/plugins/mandriva/x86_64/vmlinuz
+INITRD er/plugins/mandriva/x86_64/all.rdz
+APPEND ramdisk_size=100000 ip=dhcp automatic=method:nfs,network:dhcp,server:10.0.0.1,directory:/tftpboot/er/shares/mandriva/x86_64/ vga=788
+TEXT HELP
+                 Install Mandriva x86_64 to local system.
+ENDTEXT

@@ -1,0 +1,16 @@
+.:
+filelist.txt
+i386
+mandriva.menu
+mandriva.png
+x86_64
+
+./i386:
+all.rdz
+mandrivamain.menu
+vmlinuz
+
+./x86_64:
+all.rdz
+mandrivamain.menu
+vmlinuz
