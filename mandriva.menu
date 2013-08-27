@@ -1,9 +1,6 @@
 MENU BEGIN MANDRIVA
+MENU TITLE Mandriva 2011
 MENU LABEL ^Mandriva 2011
-# ------====> Include Menu Settings <====------
-MENU INCLUDE er/menuinc/header.module
-
-# ------====> Set Specific Page Settings <====------
 MENU BACKGROUND er/plugins/mandriva/mandriva.png
 
 MENU INCLUDE er/plugins/mandriva/i386/mandrivamain.menu
